@@ -6,4 +6,5 @@
   :dependencies [[org.clojure/clojure "1.9.0"]]
   :main ^:skip-aot kaocha-poc.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}})
+  :profiles {:kaocha {:dependencies [[lambdaisland/kaocha "0.0-418"]]}}
+  :aliases {"kaocha" ["with-profile" "+kaocha" "run" "-m" "kaocha.runner"]})
