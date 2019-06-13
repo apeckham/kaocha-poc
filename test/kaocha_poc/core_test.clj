@@ -5,3 +5,11 @@
 (deftest a-test
   (testing "FIXME, I fail."
     (is (= 0 3))))
+
+(deftest b-test
+  (testing "FIXME, I fail."
+    (is (= 0 3))))
+
+(deftest c-test
+  (testing "FIXME, I fail."
+    (is (= 0 3))))

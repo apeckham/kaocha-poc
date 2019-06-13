@@ -1,0 +1,3 @@
+#kaocha/v1
+{:plugins [:kaocha.plugin/hooks]
+ :kaocha.hooks/pre-test [my.kaocha.hooks/sample-hook]}
