@@ -1,8 +1,8 @@
-(ns kaocha-poc.core-test
+(ns kaocha-poc.core2-test
   (:require [clojure.test :refer :all]
             [kaocha-poc.core :refer :all]))
 
-(deftest a-test
+(deftest f-test
   (testing "FIXME, I fail."
-    (prn "a-test")
-    (is (= 3 3))))
+    (is (= (range 1 10) (range 1 10)))))
+
